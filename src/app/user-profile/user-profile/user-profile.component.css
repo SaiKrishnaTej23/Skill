@@ -1,0 +1,60 @@
+.user-detail{
+    position: fixed;
+    background-color: white;
+    width: 250px;
+    margin: 1rem 0;
+    min-height: calc(80vh); 
+   
+}
+.user-detail .bottom{
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid lightgray;
+    background-color: whitesmoke;
+
+}
+.user-skills{
+    margin:1rem 0;
+    background-color: white;
+    min-height: calc(80vh);
+}
+.skill-header{
+    margin: 0;
+    background: #3498db;
+    padding: 1rem;
+}
+.skill-header a{
+    color: white;
+    padding: 1rem;
+}
+.skill-header a.active{
+    color: white;
+    padding: 1rem;
+    border-bottom: 2px solid #2c3e50;
+}
+.skill-add{
+    background-color: whitesmoke;
+    padding:1rem;
+}
+.user-image{
+    margin :1rem 0;
+    width: 100%;
+    
+}
+.user-image .image{
+    width: 175px;
+    height: 175px;
+    border-radius: 100px;
+    margin: 0 auto;
+    border:1px solid lightgray;
+}
+.content{
+    margin:1rem;
+    display: block;
+}
+.skills-list{
+padding: 0.5rem;
+display: inline-block;
+}

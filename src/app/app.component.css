@@ -1,0 +1,4 @@
+.router-outlet{
+    background-color: whitesmoke;
+    min-height: calc(90vh);
+}

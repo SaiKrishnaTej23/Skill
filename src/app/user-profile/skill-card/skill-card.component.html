@@ -1,0 +1,18 @@
+<div class="skill card-1 col-sm-12" *ngIf="view==2">
+    <ul class="list-inline">
+      <li class="list-inline-item"> <strong>Skill :</strong> {{skill.skill_name}}</li>
+      <li class="list-inline-item"><strong>Competency Level :</strong> {{skill.competency_level}}</li>
+      <li class="list-inline-item float-right"> <label class="badge badge-danger" *ngIf="skill?.is_mandatory">Mandatory</label></li>
+      <li class="list-inline-item float-right"> <label class="badge badge-success" *ngIf="skill?.is_completed">Completed</label></li>
+    </ul>
+</div>
+
+<div class="card card-1" *ngIf="view==1">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Skill :</strong> {{skill.skill_name}}</h5>
+      <p class="card-text"><strong>Competency Level :</strong> {{skill.competency_level}}</p>
+      
+      <label class="badge badge-danger" *ngIf="skill?.is_mandatory">Mandatory</label>
+        <label class="badge badge-success" *ngIf="skill?.is_completed">Completed</label>
+    </div>
+  </div>
